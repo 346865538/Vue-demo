@@ -1,22 +1,29 @@
-# myvuedemo
+# Vue demo
 
-> A Vue.js project
+> 天气页 (1/1)
 
-## Build Setup
+> 电影页 (0.5/1)
 
-``` bash
+> 待定
+
+> 待定
+
+
+# Vue 全家桶
+
+> 使用 Vue-cli 搭建整体骨架
+
+> 使用 Vue-router 实现路由分配
+
+> 使用 Vue-resource 实现数据请求
+
+
+# 打开
+
+``` 
 # install dependencies
 npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-# Vue demo

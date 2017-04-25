@@ -5,12 +5,12 @@
 		</div>
 		<ul>
 			<input type="text" placeholder="请输入电影名" />
-			<li><router-link to="/movie_hoting" title="zzry">正在热映</router-link></li>
-			<li>即将上映</li>
-			<li>Top250</li>
-			<li>口碑榜</li>
-			<li>北美票房榜</li>
-			<li>新片榜</li>
+			<li><router-link to="/movie_more/hot" title="zzry">正在热映</router-link></li>
+			<li><router-link to="/movie_more/will" title="zzry">即将上映</router-link></li>
+			<li><router-link to="/movie_more/top" title="zzry">Top250</router-link></li>
+			<li><router-link to="/movie_more/koubei" title="zzry">口碑榜</router-link></li>
+			<li><router-link to="/movie_more/beimei" title="zzry">北美票房榜</router-link></li>
+			<li><router-link to="/movie_more/new" title="zzry">新片榜</router-link></li>
 		</ul>
 	</div>
 </template>

@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Weather from '@/components/weather'
 import Movie from '@/components/movie'
-import Hoting from '@/components/movie_hoting'
+import More from '@/components/movie_more'
 Vue.use(Router)
 
 export default new Router({
@@ -18,9 +18,9 @@ export default new Router({
     	component: Movie
     },
     {
-    	path: '/movie_hoting',
-    	name: 'movie_hoting',
-    	component: Hoting
+    	path: '/movie_more/:type',
+    	name: 'movie_more',
+    	component: More
     }
   ]
 })
